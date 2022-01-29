@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>Bento</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <link
       rel=" shortcut icon"
       type="image/png"
@@ -22,7 +25,20 @@
     <button id="themeButton">
       <i id="themeIcon" icon-name="moon"></i>
     </button>
-    <div class="container">
+    <button onclick="Hide()" id="ProfileButton" ><i id="userIcon" icon-name="user"></i></button>
+    <div id="myDiv">
+     
+<div id="form"><form action="https://search.brave.com/search">
+  <input id="text" type="text" name="q" value="Search">
+  <input id="submit" type="submit" value="🔍">
+</form>
+</div>
+
+
+
+    </div>
+    <div id="container" class="container">
+      
       <!-- Clock and Greetings  -->
 
       <div class="timeBlock">
@@ -60,7 +76,9 @@
         └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘ 
         -->
 
-      <div class="buttons" id="buttonsContainer"></div>
+      <div class="buttons" id="buttonsContainer">
+  
+      </div>
 
       <!-- 
         ┬  ┬┌─┐┌┬┐┌─┐
@@ -81,7 +99,7 @@
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/greeting.js"></script>
     <script src="assets/js/weather.js"></script>
-
+<script src="assets/js/other.js"></script>
     <script src="assets/js/cards.js"></script>
     <script src="assets/js/lists.js"></script>
     <script>

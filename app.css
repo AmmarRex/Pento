@@ -15,7 +15,7 @@
   --fss: 3vh; /* Greetings and Weather widger */
   --fses: 2vh; /* Links List */
 
-  --iconsize: 3vh;
+  --iconsize: 3vh;                    
 
   /* Light theme  */
   --accent: #61b0f1; /* Hover color */
@@ -58,7 +58,7 @@
 
 .notransition {
   -webkit-transition: none;
-  -moz-transition: none;
+  /* -moz-transition: none; */
   -o-transition: none;
   transition: none;
 }
@@ -80,6 +80,63 @@ body {
 #themeButton {
   position: absolute;
   margin: 2em 2em 0 0;
+  right: 0;
+  top: 0;
+  color: var(--fg);
+  border: none;
+  cursor: pointer;
+  background-color: #00000000;
+}
+#myDiv{
+  width: 80em;
+  height: 50em;
+  background-color:var(--sbg);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+#submit{
+  background: var(--accent) !important;
+  margin-left: -4px;
+height: 36px;
+width: 36px;
+position: relative;
+top: -.231111em;
+border: none;
+border-radius: 5px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+background-color: var(--accent);
+}
+#form{
+  height: 34px;
+  position: absolute; 
+  top: 30vh;
+  left: 73vh;
+  right: auto;
+  display: flex;
+  background-color: var(--accent);
+ border-radius: 5px;
+  }
+#text{
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  /* margin-left: 40vh;
+  margin-top: 20vh; */
+  width: 30rem;
+  height: 1.8em;
+  border-radius: 5px;
+  border: solid 1px var(--bg);
+  font-size: 15pt;
+  border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+background-color: var(--sfg);
+}
+#ProfileButton {
+ position: absolute;
+  margin: 2em 5em 0 0;
   right: 0;
   top: 0;
   color: var(--fg);
