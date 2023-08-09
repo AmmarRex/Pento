@@ -33,10 +33,10 @@ const CONFIG = {
   defaultLongitude: '12.388320',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
-  changeThemeByOS: false, 
+  changeThemeByOS: true, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: false,
